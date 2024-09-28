@@ -26,7 +26,7 @@ ingredients_list = st.multiselect(
     my_dataframe,
     max_selections = 5
 )
-fv_df = st.dataframe(data=fruitvice_response.json(), use_container_width=True)
+fv_df = st.dataframe(data=fruityvice_response.json(), use_container_width=True)
 if ingredients_list:
     # st.write(ingredients_list)
     # st.text(ingredients_list)
